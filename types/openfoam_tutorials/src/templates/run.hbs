@@ -6,11 +6,14 @@ module load openfoam_switcher
 . switchFoam 6
 
 # Tutorial example
-cp -r $FOAM_TUTORIALS/incompressible/icoFoam/cavity simulation
-cd simulation
+cp -r $FOAM_TUTORIALS/incompressible/icoFoam/cavity/cavity .
+
+cd cavity
+
 blockMesh
-decomposePar
-foamJob -parallel -wait icoFoam
+
+foamJob -wait icoFoam
+foamToVTK
 
 # Make dataset readable by PV
 touch dataset.foam
@@ -21,4 +24,4 @@ find . -name *.obj.gz -exec gzip -dk {} \;
 # Gather context shapes in ../context
 mkdir -p ../context
 cd ../context
-find ../simulation -name *.obj -exec ln -s {} ../context/ \;
+find ../cavity -name *.obj -exec ln -s {} ../context/ \;
