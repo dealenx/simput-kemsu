@@ -1,0 +1,65 @@
+{
+  "order": ["CavityFields"],
+  "views": {
+    "CavityFields": {
+      "attributes": ["attr1"]
+    }
+  },
+  "definitions": {
+    "attr1": {
+      "parameters": [
+        {
+          "id": "nu",
+          "type": "double",
+          "default": 0
+        },
+        {
+          "id": "deltaT",
+          "type": "double",
+          "size": 0,
+
+          "default": 0
+        }
+      ]
+    },
+
+    "strings": {
+      "parameters": [
+        {
+          "id": "a",
+          "type": "string",
+          "size": 6,
+          "layout": "m6",
+          "default": ["1", "2", "3", "4", "5", "6"]
+        }
+      ]
+    },
+    "integers": {
+      "parameters": [
+        {
+          "id": "h",
+          "type": "int",
+          "size": 6,
+          "layout": "3x2",
+          "default": [1, 2, 3, 4, 5, 6]
+        }
+      ]
+    },
+    "double": {
+      "parameters": [
+        {
+          "id": "h",
+          "type": "float",
+          "size": 1,
+          "default": 0
+        },
+        {
+          "id": "nu",
+          "type": "float",
+          "size": 1,
+          "default": 0
+        }
+      ]
+    }
+  }
+}

@@ -79,7 +79,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nmodule.exports = {\n    type: 'openfoam_tutorials',\n    model: __webpack_require__(/*! ./model.json */ \"./src/model.json\"),\n    lang: __webpack_require__(/*! ./lang */ \"./src/lang/index.js\"),\n    convert: __webpack_require__(/*! ./convert.js */ \"./src/convert.js\"),\n    parse: null\n};\n\n//# sourceURL=webpack:///./src/index.js?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/babel-loader/lib??ref--12-0");
+eval("\n\nmodule.exports = {\n    type: 'demo2',\n    model: __webpack_require__(/*! ./model.json */ \"./src/model.json\"),\n    lang: __webpack_require__(/*! ./lang */ \"./src/lang/index.js\"),\n    convert: __webpack_require__(/*! ./convert.js */ \"./src/convert.js\"),\n    parse: null\n};\n\n//# sourceURL=webpack:///./src/index.js?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/babel-loader/lib??ref--12-0");
 
 /***/ }),
 
@@ -311,14 +311,201 @@ eval("\n\n// Create a simple path alias to allow browserify to resolve\n// the r
 
 /***/ }),
 
-/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/example/example.path":
-/*!***********************************************************************************************************************************!*\
-  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/example/example.path ***!
-  \***********************************************************************************************************************************/
+/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/attr1/a":
+/*!**********************************************************************************************************************!*\
+  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/attr1/a ***!
+  \**********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("module.exports = \"<p>Choose the path to the corresponding example of the OpenFOAM tutorial</p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/example/example.path?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
+eval("module.exports = \"<p>This is parameter A</p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/attr1/a?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
+
+/***/ }),
+
+/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/attr1/b":
+/*!**********************************************************************************************************************!*\
+  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/attr1/b ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<p>This is parameter B</p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/attr1/b?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
+
+/***/ }),
+
+/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/attr1/c":
+/*!**********************************************************************************************************************!*\
+  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/attr1/c ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<p>This is parameter Charlie</p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/attr1/c?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
+
+/***/ }),
+
+/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/attr1/d":
+/*!**********************************************************************************************************************!*\
+  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/attr1/d ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<p>This is parameter Delta (∆)</p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/attr1/d?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
+
+/***/ }),
+
+/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/attr1/e":
+/*!**********************************************************************************************************************!*\
+  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/attr1/e ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<p>This is parameter Echo</p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/attr1/e?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
+
+/***/ }),
+
+/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/attr1/f":
+/*!**********************************************************************************************************************!*\
+  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/attr1/f ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<p>This is parameter Foxtrot</p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/attr1/f?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
+
+/***/ }),
+
+/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/attr1/g":
+/*!**********************************************************************************************************************!*\
+  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/attr1/g ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<p>This is parameter <a href=\\\"http://www.vw.com/models/golf/\\\" target=\\\"_blank\\\">Golf</a></p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/attr1/g?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
+
+/***/ }),
+
+/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/attr1/h":
+/*!**********************************************************************************************************************!*\
+  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/attr1/h ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<p>This is parameter H</p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/attr1/h?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
+
+/***/ }),
+
+/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/attr3/a":
+/*!**********************************************************************************************************************!*\
+  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/attr3/a ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<p>This is parameter A</p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/attr3/a?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
+
+/***/ }),
+
+/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/attr3/b":
+/*!**********************************************************************************************************************!*\
+  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/attr3/b ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<p>This is parameter B</p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/attr3/b?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
+
+/***/ }),
+
+/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/attr3/c":
+/*!**********************************************************************************************************************!*\
+  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/attr3/c ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<p>This is parameter Charlie</p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/attr3/c?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
+
+/***/ }),
+
+/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/attr4/f":
+/*!**********************************************************************************************************************!*\
+  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/attr4/f ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<p>This is parameter Foxtrot</p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/attr4/f?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
+
+/***/ }),
+
+/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/attr4/g":
+/*!**********************************************************************************************************************!*\
+  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/attr4/g ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<p>This is parameter <a href=\\\"http://www.vw.com/models/golf/\\\" target=\\\"_blank\\\">Golf</a></p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/attr4/g?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
+
+/***/ }),
+
+/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/attr4/h":
+/*!**********************************************************************************************************************!*\
+  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/attr4/h ***!
+  \**********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<p>This is parameter H</p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/attr4/h?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
+
+/***/ }),
+
+/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/attrOr/a":
+/*!***********************************************************************************************************************!*\
+  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/attrOr/a ***!
+  \***********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<p>This is an Or parameter. The choices you make here will determine what inputs appear below. It will also determine the course of the <em>rest of your life</em>, choose wisely.</p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/attrOr/a?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
+
+/***/ }),
+
+/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/double/h":
+/*!***********************************************************************************************************************!*\
+  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/double/h ***!
+  \***********************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<p>This is parameter H, it is a double</p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/double/h?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
+
+/***/ }),
+
+/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/integers/h":
+/*!*************************************************************************************************************************!*\
+  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/integers/h ***!
+  \*************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<p>This is parameter H it is an integer</p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/integers/h?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
+
+/***/ }),
+
+/***/ "../../node_modules/html-loader/index.js!./src/lang/en/help/strings/a":
+/*!************************************************************************************************************************!*\
+  !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader!./src/lang/en/help/strings/a ***!
+  \************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("module.exports = \"<p>This is parameter Alpha (α) it is a string</p>\\n\";\n\n//# sourceURL=webpack:///./src/lang/en/help/strings/a?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/html-loader");
 
 /***/ }),
 
@@ -342,7 +529,7 @@ eval("\n\nvar _typeof = typeof Symbol === \"function\" && typeof Symbol.iterator
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar template = __webpack_require__(/*! ./templates/run.hbs */ \"./src/templates/run.hbs\");\n\nmodule.exports = function convert(dataModel) {\n  var results = {};\n  var error = null;\n\n  try {\n    var simulationPath = dataModel.data.ExampleSelection[0].example['example.path'].value[0];\n    results['run.sh'] = template({ simulationPath: simulationPath });\n  } catch (e) {\n    console.log('Error trying to convert model for generating run.sh', e);\n  }\n\n  return { results: results, error: error };\n};\n\n//# sourceURL=webpack:///./src/convert.js?");
+eval("\n\nvar template = __webpack_require__(/*! ./templates/demo.hbs */ \"./src/templates/demo.hbs\");\n\nmodule.exports = function (dataModel) {\n    var results = {\n        wow: 'this is a wow file. very magic',\n        bar: 'bar far mar gar har har har !'\n    },\n        error = null;\n\n    // FIXME\n\n    return { results: results, error: error };\n};\n\n//# sourceURL=webpack:///./src/convert.js?");
 
 /***/ }),
 
@@ -353,19 +540,67 @@ eval("\n\nvar template = __webpack_require__(/*! ./templates/run.hbs */ \"./src/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("/* WEBPACK VAR INJECTION */(function(global) {if(!global[\"Simput\"]) global[\"Simput\"] = {};\nif(!global[\"Simput\"][\"types\"]) global[\"Simput\"][\"types\"] = {};\nmodule.exports = global[\"Simput\"][\"types\"][\"openfoam_tutorials\"] = __webpack_require__(/*! -!/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/babel-loader/lib??ref--12-0!./index.js */ \"../../node_modules/babel-loader/lib/index.js??ref--12-0!./src/index.js\");\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/global.js */ \"../../node_modules/webpack/buildin/global.js\")))\n\n//# sourceURL=webpack:///./src/index.js-exposed?");
+eval("/* WEBPACK VAR INJECTION */(function(global) {if(!global[\"Simput\"]) global[\"Simput\"] = {};\nif(!global[\"Simput\"][\"types\"]) global[\"Simput\"][\"types\"] = {};\nmodule.exports = global[\"Simput\"][\"types\"][\"demo2\"] = __webpack_require__(/*! -!/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/babel-loader/lib??ref--12-0!./index.js */ \"../../node_modules/babel-loader/lib/index.js??ref--12-0!./src/index.js\");\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/global.js */ \"../../node_modules/webpack/buildin/global.js\")))\n\n//# sourceURL=webpack:///./src/index.js-exposed?");
 
 /***/ }),
 
-/***/ "./src/lang/en/help/example/index.js":
-/*!*******************************************!*\
-  !*** ./src/lang/en/help/example/index.js ***!
-  \*******************************************/
+/***/ "./src/lang/en/help/attr1/index.js":
+/*!*****************************************!*\
+  !*** ./src/lang/en/help/attr1/index.js ***!
+  \*****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nmodule.exports = {\n  \"example.path\": __webpack_require__(/*! html-loader!./example.path */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/example/example.path\")\n};\n\n//# sourceURL=webpack:///./src/lang/en/help/example/index.js?");
+eval("\n\nmodule.exports = {\n  \"a\": __webpack_require__(/*! html-loader!./a */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/attr1/a\"),\n  \"b\": __webpack_require__(/*! html-loader!./b */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/attr1/b\"),\n  \"c\": __webpack_require__(/*! html-loader!./c */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/attr1/c\"),\n  \"d\": __webpack_require__(/*! html-loader!./d */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/attr1/d\"),\n  \"e\": __webpack_require__(/*! html-loader!./e */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/attr1/e\"),\n  \"f\": __webpack_require__(/*! html-loader!./f */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/attr1/f\"),\n  \"g\": __webpack_require__(/*! html-loader!./g */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/attr1/g\"),\n  \"h\": __webpack_require__(/*! html-loader!./h */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/attr1/h\")\n};\n\n//# sourceURL=webpack:///./src/lang/en/help/attr1/index.js?");
+
+/***/ }),
+
+/***/ "./src/lang/en/help/attr3/index.js":
+/*!*****************************************!*\
+  !*** ./src/lang/en/help/attr3/index.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = {\n  \"a\": __webpack_require__(/*! html-loader!./a */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/attr3/a\"),\n  \"b\": __webpack_require__(/*! html-loader!./b */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/attr3/b\"),\n  \"c\": __webpack_require__(/*! html-loader!./c */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/attr3/c\")\n};\n\n//# sourceURL=webpack:///./src/lang/en/help/attr3/index.js?");
+
+/***/ }),
+
+/***/ "./src/lang/en/help/attr4/index.js":
+/*!*****************************************!*\
+  !*** ./src/lang/en/help/attr4/index.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = {\n  \"f\": __webpack_require__(/*! html-loader!./f */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/attr4/f\"),\n  \"g\": __webpack_require__(/*! html-loader!./g */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/attr4/g\"),\n  \"h\": __webpack_require__(/*! html-loader!./h */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/attr4/h\")\n};\n\n//# sourceURL=webpack:///./src/lang/en/help/attr4/index.js?");
+
+/***/ }),
+
+/***/ "./src/lang/en/help/attrOr/index.js":
+/*!******************************************!*\
+  !*** ./src/lang/en/help/attrOr/index.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = {\n  \"a\": __webpack_require__(/*! html-loader!./a */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/attrOr/a\")\n};\n\n//# sourceURL=webpack:///./src/lang/en/help/attrOr/index.js?");
+
+/***/ }),
+
+/***/ "./src/lang/en/help/double/index.js":
+/*!******************************************!*\
+  !*** ./src/lang/en/help/double/index.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = {\n  \"h\": __webpack_require__(/*! html-loader!./h */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/double/h\")\n};\n\n//# sourceURL=webpack:///./src/lang/en/help/double/index.js?");
 
 /***/ }),
 
@@ -377,7 +612,31 @@ eval("\n\nmodule.exports = {\n  \"example.path\": __webpack_require__(/*! html-l
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nmodule.exports = {\n  \"example\": __webpack_require__(/*! ./example */ \"./src/lang/en/help/example/index.js\")\n};\n\n//# sourceURL=webpack:///./src/lang/en/help/index.js?");
+eval("\n\nmodule.exports = {\n  \"attr1\": __webpack_require__(/*! ./attr1 */ \"./src/lang/en/help/attr1/index.js\"),\n  \"attr3\": __webpack_require__(/*! ./attr3 */ \"./src/lang/en/help/attr3/index.js\"),\n  \"attr4\": __webpack_require__(/*! ./attr4 */ \"./src/lang/en/help/attr4/index.js\"),\n  \"attrOr\": __webpack_require__(/*! ./attrOr */ \"./src/lang/en/help/attrOr/index.js\"),\n  \"double\": __webpack_require__(/*! ./double */ \"./src/lang/en/help/double/index.js\"),\n  \"integers\": __webpack_require__(/*! ./integers */ \"./src/lang/en/help/integers/index.js\"),\n  \"strings\": __webpack_require__(/*! ./strings */ \"./src/lang/en/help/strings/index.js\")\n};\n\n//# sourceURL=webpack:///./src/lang/en/help/index.js?");
+
+/***/ }),
+
+/***/ "./src/lang/en/help/integers/index.js":
+/*!********************************************!*\
+  !*** ./src/lang/en/help/integers/index.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = {\n  \"h\": __webpack_require__(/*! html-loader!./h */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/integers/h\")\n};\n\n//# sourceURL=webpack:///./src/lang/en/help/integers/index.js?");
+
+/***/ }),
+
+/***/ "./src/lang/en/help/strings/index.js":
+/*!*******************************************!*\
+  !*** ./src/lang/en/help/strings/index.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nmodule.exports = {\n  \"a\": __webpack_require__(/*! html-loader!./a */ \"../../node_modules/html-loader/index.js!./src/lang/en/help/strings/a\")\n};\n\n//# sourceURL=webpack:///./src/lang/en/help/strings/index.js?");
 
 /***/ }),
 
@@ -400,7 +659,7 @@ eval("\n\nmodule.exports = {\n  \"help\": __webpack_require__(/*! ./help */ \"./
 /*! exports provided: views, attributes, default */
 /***/ (function(module) {
 
-eval("module.exports = {\"views\":{\"ExampleSelection\":\"OpenFOAM Tutorial\"},\"attributes\":{\"example\":{\"title\":\"Example selection\",\"parameters\":{\"example.path\":\"Path\"}}}};\n\n//# sourceURL=webpack:///./src/lang/en/label.json?");
+eval("module.exports = {\"views\":{\"SingleView\":\"Single View\",\"ViewWithChildren\":\"View with children\",\"MultiView\":\"Multi-view\",\"ViewWithOr\":\"View with attribute selection\",\"AllTypes\":\"All types\",\"SubView1\":\"Sub-view a\",\"SubView2\":\"Sub-view b\",\"SubView3\":\"Sub-view c\"},\"attributes\":{\"attr1\":{\"title\":\"Attribute 1\",\"parameters\":{\"a\":\"a\",\"b\":\"b\",\"c\":\"c\",\"d\":\"d\",\"e\":\"e\",\"f\":\"f\",\"g\":\"g\",\"h\":\"h\"}},\"attr2\":{\"title\":\"Attribute 2\"},\"attr3\":{\"title\":\"Attribute 3\",\"parameters\":{\"a\":\"a\",\"b\":\"b\",\"c\":\"c\"}},\"attr4\":{\"title\":\"Attribute 4\",\"parameters\":{\"f\":\"f\",\"g\":\"g\",\"h\":\"h\"}},\"attrOr\":{\"title\":\"Or Attribute\",\"parameters\":{\"a\":\"a\"}},\"strings\":{\"title\":\"Strings\",\"parameters\":{\"a\":\"a\"}},\"integers\":{\"title\":\"Integers\",\"parameters\":{\"h\":\"h\"}},\"double\":{\"title\":\"Double\",\"parameters\":{\"h\":\"H\"}}}};\n\n//# sourceURL=webpack:///./src/lang/en/label.json?");
 
 /***/ }),
 
@@ -420,21 +679,21 @@ eval("\n\nmodule.exports = {\n  \"en\": __webpack_require__(/*! ./en */ \"./src/
 /*!************************!*\
   !*** ./src/model.json ***!
   \************************/
-/*! exports provided: order, views, external, definitions, default */
+/*! exports provided: order, views, definitions, default */
 /***/ (function(module) {
 
-eval("module.exports = {\"order\":[\"ExampleSelection\"],\"views\":{\"ExampleSelection\":{\"attributes\":[\"example\"]}},\"external\":{\"tutorial-paths\":{\"heatTransfer/chtMultiRegionSimpleFoam/heatExchanger\":\"heatTransfer/chtMultiRegionSimpleFoam/heatExchanger\",\"heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation\":\"heatTransfer/chtMultiRegionSimpleFoam/multiRegionHeaterRadiation\",\"heatTransfer/buoyantSimpleFoam/buoyantCavity\":\"heatTransfer/buoyantSimpleFoam/buoyantCavity\",\"heatTransfer/buoyantSimpleFoam/hotRadiationRoomFvDOM\":\"heatTransfer/buoyantSimpleFoam/hotRadiationRoomFvDOM\",\"heatTransfer/buoyantSimpleFoam/hotRadiationRoom\":\"heatTransfer/buoyantSimpleFoam/hotRadiationRoom\",\"heatTransfer/buoyantSimpleFoam/circuitBoardCooling\":\"heatTransfer/buoyantSimpleFoam/circuitBoardCooling\",\"heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater\":\"heatTransfer/chtMultiRegionFoam/snappyMultiRegionHeater\",\"heatTransfer/chtMultiRegionFoam/multiRegionHeater\":\"heatTransfer/chtMultiRegionFoam/multiRegionHeater\",\"heatTransfer/chtMultiRegionFoam/externalSolarLoad\":\"heatTransfer/chtMultiRegionFoam/externalSolarLoad\",\"heatTransfer/chtMultiRegionFoam/windshieldCondensation\":\"heatTransfer/chtMultiRegionFoam/windshieldCondensation\",\"heatTransfer/chtMultiRegionFoam/externalCoupledMultiRegionHeater\":\"heatTransfer/chtMultiRegionFoam/externalCoupledMultiRegionHeater\",\"heatTransfer/chtMultiRegionFoam/windshieldDefrost\":\"heatTransfer/chtMultiRegionFoam/windshieldDefrost\",\"heatTransfer/buoyantBoussinesqPimpleFoam/hotRoom\":\"heatTransfer/buoyantBoussinesqPimpleFoam/hotRoom\",\"heatTransfer/buoyantBoussinesqSimpleFoam/iglooWithFridges\":\"heatTransfer/buoyantBoussinesqSimpleFoam/iglooWithFridges\",\"heatTransfer/buoyantBoussinesqSimpleFoam/hotRoom\":\"heatTransfer/buoyantBoussinesqSimpleFoam/hotRoom\",\"heatTransfer/buoyantPimpleFoam/thermocoupleTestCase\":\"heatTransfer/buoyantPimpleFoam/thermocoupleTestCase\",\"heatTransfer/buoyantPimpleFoam/hotRoom\":\"heatTransfer/buoyantPimpleFoam/hotRoom\",\"basic/potentialFoam/pitzDaily\":\"basic/potentialFoam/pitzDaily\",\"basic/potentialFoam/cylinder\":\"basic/potentialFoam/cylinder\",\"basic/laplacianFoam/flange\":\"basic/laplacianFoam/flange\",\"preProcessing/createZeroDirectory/snappyMultiRegionHeater\":\"preProcessing/createZeroDirectory/snappyMultiRegionHeater\",\"preProcessing/createZeroDirectory/cavity\":\"preProcessing/createZeroDirectory/cavity\",\"preProcessing/createZeroDirectory/motorBike\":\"preProcessing/createZeroDirectory/motorBike\",\"stressAnalysis/solidDisplacementFoam/plateHole\":\"stressAnalysis/solidDisplacementFoam/plateHole\",\"mesh/foamyQuadMesh/square\":\"mesh/foamyQuadMesh/square\",\"mesh/foamyQuadMesh/OpenCFD\":\"mesh/foamyQuadMesh/OpenCFD\",\"mesh/foamyQuadMesh/jaggedBoundary\":\"mesh/foamyQuadMesh/jaggedBoundary\",\"mesh/moveDynamicMesh/relativeMotion\":\"mesh/moveDynamicMesh/relativeMotion\",\"mesh/blockMesh/sphere\":\"mesh/blockMesh/sphere\",\"mesh/blockMesh/pipe\":\"mesh/blockMesh/pipe\",\"mesh/blockMesh/sphere7ProjectedEdges\":\"mesh/blockMesh/sphere7ProjectedEdges\",\"mesh/blockMesh/sphere7\":\"mesh/blockMesh/sphere7\",\"mesh/parallel/cavity\":\"mesh/parallel/cavity\",\"mesh/parallel/filter\":\"mesh/parallel/filter\",\"mesh/snappyHexMesh/flange\":\"mesh/snappyHexMesh/flange\",\"mesh/snappyHexMesh\":\"mesh/snappyHexMesh\",\"mesh/snappyHexMesh/gap_detection\":\"mesh/snappyHexMesh/gap_detection\",\"mesh/snappyHexMesh/addLayersToFaceZone\":\"mesh/snappyHexMesh/addLayersToFaceZone\",\"mesh/refineMesh/refineFieldDirs\":\"mesh/refineMesh/refineFieldDirs\",\"mesh/foamyHexMesh/flange\":\"mesh/foamyHexMesh/flange\",\"mesh/foamyHexMesh\":\"mesh/foamyHexMesh\",\"mesh/foamyHexMesh/mixerVessel\":\"mesh/foamyHexMesh/mixerVessel\",\"mesh/foamyHexMesh/simpleShapes\":\"mesh/foamyHexMesh/simpleShapes\",\"mesh/foamyHexMesh/blob\":\"mesh/foamyHexMesh/blob\",\"incompressible/simpleFoam/turbineSiting\":\"incompressible/simpleFoam/turbineSiting\",\"incompressible/simpleFoam/T3A\":\"incompressible/simpleFoam/T3A\",\"incompressible/simpleFoam/mixerVessel2D\":\"incompressible/simpleFoam/mixerVessel2D\",\"incompressible/simpleFoam/airFoil2D\":\"incompressible/simpleFoam/airFoil2D\",\"incompressible/simpleFoam/rotorDisk\":\"incompressible/simpleFoam/rotorDisk\",\"incompressible/simpleFoam/windAroundBuildings\":\"incompressible/simpleFoam/windAroundBuildings\",\"incompressible/simpleFoam/simpleCar\":\"incompressible/simpleFoam/simpleCar\",\"incompressible/simpleFoam/pipeCyclic\":\"incompressible/simpleFoam/pipeCyclic\",\"incompressible/simpleFoam/motorBike\":\"incompressible/simpleFoam/motorBike\",\"incompressible/boundaryFoam/boundaryWallFunctionsProfile\":\"incompressible/boundaryFoam/boundaryWallFunctionsProfile\",\"incompressible/porousSimpleFoam/straightDuctImplicit\":\"incompressible/porousSimpleFoam/straightDuctImplicit\",\"incompressible/porousSimpleFoam/angledDuct/explicit\":\"incompressible/porousSimpleFoam/angledDuct/explicit\",\"incompressible/porousSimpleFoam/angledDuct/implicit\":\"incompressible/porousSimpleFoam/angledDuct/implicit\",\"incompressible/icoFoam/elbow\":\"incompressible/icoFoam/elbow\",\"incompressible/icoFoam/cavity\":\"incompressible/icoFoam/cavity\",\"incompressible/icoFoam/cavityMappingTest\":\"incompressible/icoFoam/cavityMappingTest\",\"incompressible/pimpleFoam/LES/channel395\":\"incompressible/pimpleFoam/LES/channel395\",\"incompressible/pimpleFoam/LES/channel395DFSEM\":\"incompressible/pimpleFoam/LES/channel395DFSEM\",\"incompressible/pimpleFoam/RAS/elipsekkLOmega\":\"incompressible/pimpleFoam/RAS/elipsekkLOmega\",\"incompressible/pimpleFoam/RAS/TJunctionFan\":\"incompressible/pimpleFoam/RAS/TJunctionFan\",\"incompressible/pimpleFoam/laminar/planarPoiseuille\":\"incompressible/pimpleFoam/laminar/planarPoiseuille\",\"incompressible/pimpleDyMFoam/mixerVesselAMI2D\":\"incompressible/pimpleDyMFoam/mixerVesselAMI2D\",\"incompressible/pimpleDyMFoam/propeller\":\"incompressible/pimpleDyMFoam/propeller\",\"incompressible/pimpleDyMFoam/wingMotion\":\"incompressible/pimpleDyMFoam/wingMotion\",\"incompressible/pimpleDyMFoam/oscillatingInletACMI2D\":\"incompressible/pimpleDyMFoam/oscillatingInletACMI2D\",\"incompressible/pisoFoam/LES/motorBike\":\"incompressible/pisoFoam/LES/motorBike\",\"incompressible/pisoFoam/LES/motorBike/lesFiles\":\"incompressible/pisoFoam/LES/motorBike/lesFiles\",\"incompressible/pisoFoam/LES/motorBike/motorBike\":\"incompressible/pisoFoam/LES/motorBike/motorBike\",\"incompressible/pisoFoam/laminar/porousBlockage\":\"incompressible/pisoFoam/laminar/porousBlockage\",\"incompressible/SRFPimpleFoam/rotor2D\":\"incompressible/SRFPimpleFoam/rotor2D\",\"DNS/dnsFoam/boxTurb16\":\"DNS/dnsFoam/boxTurb16\",\"electromagnetics/mhdFoam/hartmann\":\"electromagnetics/mhdFoam/hartmann\",\"discreteMethods/dsmcFoam/supersonicCorner\":\"discreteMethods/dsmcFoam/supersonicCorner\",\"discreteMethods/dsmcFoam/freeSpacePeriodic\":\"discreteMethods/dsmcFoam/freeSpacePeriodic\",\"discreteMethods/dsmcFoam/wedge15Ma5\":\"discreteMethods/dsmcFoam/wedge15Ma5\",\"discreteMethods/dsmcFoam/freeSpaceStream\":\"discreteMethods/dsmcFoam/freeSpaceStream\",\"discreteMethods/molecularDynamics/mdEquilibrationFoam/periodicCubeArgon\":\"discreteMethods/molecularDynamics/mdEquilibrationFoam/periodicCubeArgon\",\"discreteMethods/molecularDynamics/mdEquilibrationFoam/periodicCubeWater\":\"discreteMethods/molecularDynamics/mdEquilibrationFoam/periodicCubeWater\",\"discreteMethods/molecularDynamics/mdFoam/nanoNozzle\":\"discreteMethods/molecularDynamics/mdFoam/nanoNozzle\",\"lagrangian/reactingParcelFoam/verticalChannelLTS\":\"lagrangian/reactingParcelFoam/verticalChannelLTS\",\"lagrangian/reactingParcelFoam/verticalChannel\":\"lagrangian/reactingParcelFoam/verticalChannel\",\"lagrangian/reactingParcelFoam/filter\":\"lagrangian/reactingParcelFoam/filter\",\"lagrangian/icoUncoupledKinematicParcelFoam/hopper\":\"lagrangian/icoUncoupledKinematicParcelFoam/hopper\",\"lagrangian/reactingParcelFilmFoam/hotBoxes\":\"lagrangian/reactingParcelFilmFoam/hotBoxes\",\"lagrangian/reactingParcelFilmFoam/cylinder\":\"lagrangian/reactingParcelFilmFoam/cylinder\",\"lagrangian/reactingParcelFilmFoam/splashPanel\":\"lagrangian/reactingParcelFilmFoam/splashPanel\",\"lagrangian/reactingParcelFilmFoam/rivuletPanel\":\"lagrangian/reactingParcelFilmFoam/rivuletPanel\",\"lagrangian/MPPICFoam/cyclone\":\"lagrangian/MPPICFoam/cyclone\",\"lagrangian/coalChemistryFoam/simplifiedSiwek\":\"lagrangian/coalChemistryFoam/simplifiedSiwek\",\"lagrangian/simpleReactingParcelFoam/verticalChannel\":\"lagrangian/simpleReactingParcelFoam/verticalChannel\",\"multiphase/compressibleInterFoam/laminar/depthCharge3D\":\"multiphase/compressibleInterFoam/laminar/depthCharge3D\",\"multiphase/compressibleInterFoam/laminar/depthCharge2D\":\"multiphase/compressibleInterFoam/laminar/depthCharge2D\",\"multiphase/multiphaseInterFoam/laminar/mixerVessel2D\":\"multiphase/multiphaseInterFoam/laminar/mixerVessel2D\",\"multiphase/multiphaseInterFoam/laminar/damBreak4phase\":\"multiphase/multiphaseInterFoam/laminar/damBreak4phase\",\"multiphase/multiphaseInterFoam/laminar/damBreak4phaseFine\":\"multiphase/multiphaseInterFoam/laminar/damBreak4phaseFine\",\"multiphase/multiphaseEulerFoam/mixerVessel2D\":\"multiphase/multiphaseEulerFoam/mixerVessel2D\",\"multiphase/multiphaseEulerFoam/damBreak4phase\":\"multiphase/multiphaseEulerFoam/damBreak4phase\",\"multiphase/multiphaseEulerFoam/damBreak4phaseFine\":\"multiphase/multiphaseEulerFoam/damBreak4phaseFine\",\"multiphase/interPhaseChangeFoam/cavitatingBullet\":\"multiphase/interPhaseChangeFoam/cavitatingBullet\",\"multiphase/multiphaseInterDyMFoam/laminar/mixerVesselAMI2D\":\"multiphase/multiphaseInterDyMFoam/laminar/mixerVesselAMI2D\",\"multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D\":\"multiphase/reactingMultiphaseEulerFoam/laminar/mixerVessel2D\",\"multiphase/twoPhaseEulerFoam/laminar/mixerVessel2D\":\"multiphase/twoPhaseEulerFoam/laminar/mixerVessel2D\",\"multiphase/twoLiquidMixingFoam/lockExchange\":\"multiphase/twoLiquidMixingFoam/lockExchange\",\"multiphase/interCondensingEvaporatingFoam/condensatingVessel\":\"multiphase/interCondensingEvaporatingFoam/condensatingVessel\",\"multiphase/compressibleInterDyMFoam/RAS/sloshingTank2D\":\"multiphase/compressibleInterDyMFoam/RAS/sloshingTank2D\",\"multiphase/compressibleInterDyMFoam/laminar/sphereDrop\":\"multiphase/compressibleInterDyMFoam/laminar/sphereDrop\",\"multiphase/interMixingFoam/laminar/damBreak\":\"multiphase/interMixingFoam/laminar/damBreak\",\"multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE\":\"multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoilingIATE\",\"multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling\":\"multiphase/reactingTwoPhaseEulerFoam/RAS/wallBoiling\",\"multiphase/reactingTwoPhaseEulerFoam/laminar/mixerVessel2D\":\"multiphase/reactingTwoPhaseEulerFoam/laminar/mixerVessel2D\",\"multiphase/cavitatingFoam/LES/throttle3D\":\"multiphase/cavitatingFoam/LES/throttle3D\",\"multiphase/cavitatingFoam/LES\":\"multiphase/cavitatingFoam/LES\",\"multiphase/cavitatingFoam/LES/throttle\":\"multiphase/cavitatingFoam/LES/throttle\",\"multiphase/cavitatingFoam/RAS/throttle\":\"multiphase/cavitatingFoam/RAS/throttle\",\"multiphase/compressibleMultiphaseInterFoam/laminar/damBreak4phase\":\"multiphase/compressibleMultiphaseInterFoam/laminar/damBreak4phase\",\"multiphase/driftFluxFoam/RAS/tank3D\":\"multiphase/driftFluxFoam/RAS/tank3D\",\"multiphase/driftFluxFoam/RAS/mixerVessel2D\":\"multiphase/driftFluxFoam/RAS/mixerVessel2D\",\"multiphase/MPPICInterFoam/twoPhasePachuka\":\"multiphase/MPPICInterFoam/twoPhasePachuka\",\"multiphase/interPhaseChangeDyMFoam/propeller\":\"multiphase/interPhaseChangeDyMFoam/propeller\",\"multiphase/interFoam/LES/nozzleFlow2D\":\"multiphase/interFoam/LES/nozzleFlow2D\",\"multiphase/interFoam/RAS/waterChannel\":\"multiphase/interFoam/RAS/waterChannel\",\"multiphase/interFoam/RAS/damBreak\":\"multiphase/interFoam/RAS/damBreak\",\"multiphase/interFoam/RAS/damBreak/damBreak\":\"multiphase/interFoam/RAS/damBreak/damBreak\",\"multiphase/interFoam/RAS/DTCHull\":\"multiphase/interFoam/RAS/DTCHull\",\"multiphase/interFoam/RAS/damBreakPorousBaffle\":\"multiphase/interFoam/RAS/damBreakPorousBaffle\",\"multiphase/interFoam/RAS/angledDuct\":\"multiphase/interFoam/RAS/angledDuct\",\"multiphase/interFoam/RAS/weirOverflow\":\"multiphase/interFoam/RAS/weirOverflow\",\"multiphase/interFoam/laminar/waveExampleStokesI\":\"multiphase/interFoam/laminar/waveExampleStokesI\",\"multiphase/interFoam/laminar/waveExampleStokesV\":\"multiphase/interFoam/laminar/waveExampleStokesV\",\"multiphase/interFoam/laminar/mixerVessel2D\":\"multiphase/interFoam/laminar/mixerVessel2D\",\"multiphase/interFoam/laminar/vofToLagrangian\":\"multiphase/interFoam/laminar/vofToLagrangian\",\"multiphase/interFoam/laminar/vofToLagrangian/lagrangianDistributionInjection\":\"multiphase/interFoam/laminar/vofToLagrangian/lagrangianDistributionInjection\",\"multiphase/interFoam/laminar/vofToLagrangian/eulerianInjection\":\"multiphase/interFoam/laminar/vofToLagrangian/eulerianInjection\",\"multiphase/interFoam/laminar/vofToLagrangian/lagrangianParticleInjection\":\"multiphase/interFoam/laminar/vofToLagrangian/lagrangianParticleInjection\",\"multiphase/interFoam/laminar/damBreak\":\"multiphase/interFoam/laminar/damBreak\",\"multiphase/interFoam/laminar/damBreak/damBreak\":\"multiphase/interFoam/laminar/damBreak/damBreak\",\"multiphase/interFoam/laminar/waveExampleSolitary\":\"multiphase/interFoam/laminar/waveExampleSolitary\",\"multiphase/interFoam/laminar/waveExampleStokesII\":\"multiphase/interFoam/laminar/waveExampleStokesII\",\"multiphase/interFoam/laminar/capillaryRise\":\"multiphase/interFoam/laminar/capillaryRise\",\"multiphase/interFoam/laminar/waveExampleCnoidal\":\"multiphase/interFoam/laminar/waveExampleCnoidal\",\"multiphase/interDyMFoam/RAS/floatingObject\":\"multiphase/interDyMFoam/RAS/floatingObject\",\"multiphase/interDyMFoam/RAS/DTCHull\":\"multiphase/interDyMFoam/RAS/DTCHull\",\"multiphase/interDyMFoam/RAS/mixerVesselAMI\":\"multiphase/interDyMFoam/RAS/mixerVesselAMI\",\"multiphase/interDyMFoam/RAS/damBreakWithObstacle\":\"multiphase/interDyMFoam/RAS/damBreakWithObstacle\",\"multiphase/interDyMFoam/RAS/motorBike\":\"multiphase/interDyMFoam/RAS/motorBike\",\"multiphase/interDyMFoam/laminar/sloshingTank2D\":\"multiphase/interDyMFoam/laminar/sloshingTank2D\",\"multiphase/interDyMFoam/laminar/sloshingTank3D\":\"multiphase/interDyMFoam/laminar/sloshingTank3D\",\"multiphase/interDyMFoam/laminar/sloshingTank3D3DoF\":\"multiphase/interDyMFoam/laminar/sloshingTank3D3DoF\",\"multiphase/interDyMFoam/laminar/sloshingTank3D6DoF\":\"multiphase/interDyMFoam/laminar/sloshingTank3D6DoF\",\"multiphase/interDyMFoam/laminar/sloshingTank2D3DoF\":\"multiphase/interDyMFoam/laminar/sloshingTank2D3DoF\",\"multiphase/interDyMFoam/laminar/testTubeMixer\":\"multiphase/interDyMFoam/laminar/testTubeMixer\",\"multiphase/potentialFreeSurfaceFoam/oscillatingBox\":\"multiphase/potentialFreeSurfaceFoam/oscillatingBox\",\"multiphase/potentialFreeSurfaceDyMFoam/oscillatingBox\":\"multiphase/potentialFreeSurfaceDyMFoam/oscillatingBox\",\"combustion/fireFoam/LES/smallPoolFire2D\":\"combustion/fireFoam/LES/smallPoolFire2D\",\"combustion/fireFoam/LES/smallPoolFire3D\":\"combustion/fireFoam/LES/smallPoolFire3D\",\"combustion/fireFoam/LES/simplePMMApanel\":\"combustion/fireFoam/LES/simplePMMApanel\",\"combustion/fireFoam/LES/compartmentFire\":\"combustion/fireFoam/LES/compartmentFire\",\"combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel\":\"combustion/fireFoam/LES/flameSpreadWaterSuppressionPanel\",\"combustion/fireFoam/LES/oppositeBurningPanels\":\"combustion/fireFoam/LES/oppositeBurningPanels\",\"combustion/XiDyMFoam/annularCombustorTurbine\":\"combustion/XiDyMFoam/annularCombustorTurbine\",\"combustion/engineFoam/kivaTest\":\"combustion/engineFoam/kivaTest\",\"combustion/chemFoam/nc7h16\":\"combustion/chemFoam/nc7h16\",\"combustion/chemFoam/ic8h18\":\"combustion/chemFoam/ic8h18\",\"combustion/chemFoam/ic8h18_TDAC\":\"combustion/chemFoam/ic8h18_TDAC\",\"combustion/chemFoam/gri\":\"combustion/chemFoam/gri\",\"combustion/chemFoam/h2\":\"combustion/chemFoam/h2\",\"combustion/XiFoam/RAS\":\"combustion/XiFoam/RAS\",\"combustion/PDRFoam/flamePropagationWithObstacles\":\"combustion/PDRFoam/flamePropagationWithObstacles\",\"compressible/rhoPorousSimpleFoam/angledDuct/explicit\":\"compressible/rhoPorousSimpleFoam/angledDuct/explicit\",\"compressible/rhoPorousSimpleFoam/angledDuct/implicit\":\"compressible/rhoPorousSimpleFoam/angledDuct/implicit\",\"compressible/rhoPimpleDyMFoam/annularThermalMixer\":\"compressible/rhoPimpleDyMFoam/annularThermalMixer\",\"compressible/sonicLiquidFoam\":\"compressible/sonicLiquidFoam\",\"compressible/rhoCentralFoam/shockTube\":\"compressible/rhoCentralFoam/shockTube\",\"compressible/rhoCentralFoam/biconic25-55Run35\":\"compressible/rhoCentralFoam/biconic25-55Run35\",\"compressible/sonicFoam/RAS/nacaAirfoil\":\"compressible/sonicFoam/RAS/nacaAirfoil\",\"compressible/sonicFoam/laminar/shockTube\":\"compressible/sonicFoam/laminar/shockTube\",\"compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff\":\"compressible/rhoSimpleFoam/angledDuctExplicitFixedCoeff\",\"compressible/rhoPimpleFoam/RAS/mixerVessel2D\":\"compressible/rhoPimpleFoam/RAS/mixerVessel2D\",\"compressible/rhoPimpleFoam/RAS/angledDuct\":\"compressible/rhoPimpleFoam/RAS/angledDuct\",\"compressible/rhoPimpleFoam/RAS/angledDuctLTS\":\"compressible/rhoPimpleFoam/RAS/angledDuctLTS\",\"compressible/rhoPimpleFoam/laminar/sineWaveDamping\":\"compressible/rhoPimpleFoam/laminar/sineWaveDamping\",\"compressible/rhoPimpleFoam/laminar/helmholtzResonance\":\"compressible/rhoPimpleFoam/laminar/helmholtzResonance\"}},\"definitions\":{\"example\":{\"parameters\":[{\"id\":\"example.path\",\"type\":\"string\",\"size\":1,\"ui\":\"enum\",\"default\":[],\"domain\":{\"external\":\"tutorial-paths\"}}]}}};\n\n//# sourceURL=webpack:///./src/model.json?");
+eval("module.exports = {\"order\":[\"SingleView\",\"ViewWithChildren\",\"MultiView\",\"ViewWithOr\",\"AllTypes\"],\"views\":{\"SingleView\":{\"attributes\":[\"attr1\"]},\"ViewWithChildren\":{\"children\":[\"SubView1\",\"SubView2\",\"SubView3\"]},\"MultiView\":{\"size\":-1,\"attributes\":[\"attr1\"]},\"ViewWithOr\":{\"attributes\":[\"attrOr\"]},\"AllTypes\":{\"attributes\":[\"strings\",\"integers\",\"double\"]},\"SubView1\":{\"attributes\":[\"attr1\"]},\"SubView2\":{\"attributes\":[\"attr2\"],\"size\":-1},\"SubView3\":{\"attributes\":[\"attr3\"]}},\"definitions\":{\"attr1\":{\"parameters\":[{\"id\":\"a\",\"type\":\"int\",\"size\":1,\"default\":0},{\"id\":\"b\",\"type\":\"string\",\"size\":2,\"layout\":\"2\",\"default\":[\"x\",\"y\"],\"show\":\"a[0] > 5\"},{\"id\":\"c\",\"type\":\"string\",\"size\":3,\"layout\":\"3\",\"default\":[\"x\",\"y\",\"z\"]},{\"id\":\"d\",\"type\":\"string\",\"size\":4,\"default\":[\"1\",\"2\",\"3\",\"4\"]},{\"id\":\"e\",\"type\":\"string\",\"size\":5,\"default\":[\"1\",\"2\",\"3\",\"4\",\"5\"]},{\"id\":\"f\",\"type\":\"string\",\"size\":6,\"layout\":\"m6\",\"default\":[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\"]},{\"id\":\"g\",\"type\":\"string\",\"size\":6,\"layout\":\"2x3\",\"default\":[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\"]},{\"id\":\"h\",\"type\":\"string\",\"size\":6,\"layout\":\"3x2\",\"default\":[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\"]}]},\"attr2\":{\"parameters\":[{\"id\":\"a\",\"type\":\"int\",\"size\":1,\"ui\":\"enum\",\"default\":[3],\"domain\":{\"Choice 1\":0,\"Choice 2\":1,\"Choice 3\":2,\"Choice 4\":3,\"Choice 5\":4}},{\"id\":\"b\",\"type\":\"int\",\"size\":-1,\"ui\":\"enum\",\"default\":[0,3,4],\"domain\":{\"Choice 1\":0,\"Choice 2\":1,\"Choice 3\":2,\"Choice 4\":3,\"Choice 5\":4}}]},\"attr3\":{\"parameters\":[{\"id\":\"a\",\"type\":\"bool\",\"size\":2,\"ui\":\"checkbox\",\"default\":[true,false]},{\"id\":\"b\",\"type\":\"string\",\"size\":2,\"default\":[\"x\",\"y\"]},{\"id\":\"c\",\"type\":\"string\",\"size\":3,\"default\":[\"x\",\"y\",\"z\"]}]},\"attr4\":{\"parameters\":[{\"id\":\"f\",\"type\":\"string\",\"size\":6,\"layout\":\"m6\",\"default\":[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\"]},{\"id\":\"g\",\"type\":\"string\",\"size\":6,\"layout\":\"2x3\",\"default\":[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\"]},{\"id\":\"h\",\"type\":\"string\",\"size\":6,\"layout\":\"3x2\",\"default\":[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\"]}]},\"attrOr\":{\"parameters\":[{\"id\":\"a\",\"type\":\"int\",\"size\":1,\"ui\":\"enum\",\"default\":[3],\"domain\":{\"Choice 1\":1,\"Choice 2\":2,\"Choice 3\":3,\"Choice 4\":4,\"Choice 5\":5},\"help\":[\"_self\",\"attr1\",\"attr2\"]},[\"attr1\",\"attr2\",\"attr3\"]],\"children\":{\"attr1\":\"attrOr.a[0] >= 1\",\"attr2\":\"attrOr.a[0] === 2\",\"attr3\":\"attrOr.a[0] === 3\"}},\"strings\":{\"parameters\":[{\"id\":\"a\",\"type\":\"string\",\"size\":6,\"layout\":\"m6\",\"default\":[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\"]}]},\"integers\":{\"parameters\":[{\"id\":\"h\",\"type\":\"int\",\"size\":6,\"layout\":\"3x2\",\"default\":[1,2,3,4,5,6]}]},\"double\":{\"parameters\":[{\"id\":\"h\",\"type\":\"float\",\"size\":6,\"layout\":\"3x2\",\"default\":[1,2,3,4,5,6]}]}}};\n\n//# sourceURL=webpack:///./src/model.json?");
 
 /***/ }),
 
-/***/ "./src/templates/run.hbs":
-/*!*******************************!*\
-  !*** ./src/templates/run.hbs ***!
-  \*******************************/
+/***/ "./src/templates/demo.hbs":
+/*!********************************!*\
+  !*** ./src/templates/demo.hbs ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var Handlebars = __webpack_require__(/*! /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/handlebars/runtime.js */ \"../../node_modules/handlebars/runtime.js\");\nfunction __default(obj) { return obj && (obj.__esModule ? obj[\"default\"] : obj); }\nmodule.exports = (Handlebars[\"default\"] || Handlebars).template({\"compiler\":[7,\">= 4.0.0\"],\"main\":function(container,depth0,helpers,partials,data) {\n    return \"#!/bin/bash\\n\\ncd $1\\n\\nmodule load openfoam_switcher\\n. switchFoam 6\\n\\n# Tutorial example\\ncp -r $FOAM_TUTORIALS/incompressible/icoFoam/cavity/cavity .\\n\\ncd cavity\\n\\nblockMesh\\n\\nfoamJob -wait icoFoam\\nfoamToVTK\\n\\n# Make dataset readable by PV\\ntouch dataset.foam\\n\\n# Unzip any obj file so they can be used as context\\nfind . -name *.obj.gz -exec gzip -dk {} \\\\;\\n\\n# Gather context shapes in ../context\\nmkdir -p ../context\\ncd ../context\\nfind ../cavity -name *.obj -exec ln -s {} ../context/ \\\\;\";\n},\"useData\":true});\n\n//# sourceURL=webpack:///./src/templates/run.hbs?");
+eval("var Handlebars = __webpack_require__(/*! /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/handlebars/runtime.js */ \"../../node_modules/handlebars/runtime.js\");\nfunction __default(obj) { return obj && (obj.__esModule ? obj[\"default\"] : obj); }\nmodule.exports = (Handlebars[\"default\"] || Handlebars).template({\"compiler\":[7,\">= 4.0.0\"],\"main\":function(container,depth0,helpers,partials,data) {\n    return \"Just need to fill with some data...\";\n},\"useData\":true});\n\n//# sourceURL=webpack:///./src/templates/demo.hbs?");
 
 /***/ })
 
