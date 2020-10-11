@@ -1,10 +1,10 @@
 # openfoam_cavity
 
-This Simput type is meant to highlight the capabilities behind Simput and all
-the possible way the information can be presented to the user.
+OpenFOAM let you generate the script that should be run cavity case.
 
-It has no other goal than to show example on how to cover and show the full
-capabilities of Simput.
+This will generate a `run.sh` file based on the cavity case.
+
+Then the execution should be done as follow:
 
 ## Simput Integration
 
