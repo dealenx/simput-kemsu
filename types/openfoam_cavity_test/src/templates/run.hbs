@@ -1,0 +1,31 @@
+#!/bin/bash
+
+cd $1
+
+module load openfoam_switcher
+. switchFoam 6
+
+# Tutorial example
+cp -r $FOAM_TUTORIALS/incompressible/icoFoam/cavity/cavity .
+
+cd cavity
+
+sed -i 's/0.01/{{{nu}}}/' constant/transportProperties
+sed -i 's/0.005/{{{deltaT}}}/' system/controlDict
+sed -i 's/0.5/{{{endTime}}}/' system/controlDict
+
+blockMesh
+
+foamJob -wait icoFoam
+foamToVTK
+
+# Make dataset readable by PV
+touch dataset.foam
+
+# Unzip any obj file so they can be used as context
+find . -name *.obj.gz -exec gzip -dk {} \;
+
+# Gather context shapes in ../context
+mkdir -p ../context
+cd ../context
+find ../cavity -name *.obj -exec ln -s {} ../context/ \;

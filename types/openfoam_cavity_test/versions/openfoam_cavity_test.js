@@ -71,6 +71,18 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "../../../../../vkr/hpccloud-workflow/simput-kemsu/node_modules/webpack/buildin/global.js":
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nvar _typeof = typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; };\n\nvar g;\n\n// This works in non-strict mode\ng = function () {\n\treturn this;\n}();\n\ntry {\n\t// This works if eval is allowed (see CSP)\n\tg = g || Function(\"return this\")() || (1, eval)(\"this\");\n} catch (e) {\n\t// This works if the window reference is available\n\tif ((typeof window === \"undefined\" ? \"undefined\" : _typeof(window)) === \"object\") g = window;\n}\n\n// g can still be undefined, but nothing to do about it...\n// We return undefined, instead of nothing here, so it's\n// easier to handle this case. if(!global) { ...}\n\nmodule.exports = g;\n\n//# sourceURL=webpack:///(webpack)/buildin/global.js?");
+
+/***/ }),
+
 /***/ "../../node_modules/babel-loader/lib/index.js??ref--12-0!./src/index.js":
 /*!**************************************************************************************************************************!*\
   !*** /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/babel-loader/lib??ref--12-0!./src/index.js ***!
@@ -79,7 +91,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nmodule.exports = {\n    type: 'openfoam_cavity',\n    model: __webpack_require__(/*! ./model.json */ \"./src/model.json\"),\n    lang: __webpack_require__(/*! ./lang */ \"./src/lang/index.js\"),\n    convert: __webpack_require__(/*! ./convert.js */ \"./src/convert.js\"),\n    parse: null\n};\n\n//# sourceURL=webpack:///./src/index.js?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/babel-loader/lib??ref--12-0");
+eval("\n\nmodule.exports = {\n    type: 'openfoam_cavity_test',\n    model: __webpack_require__(/*! ./model.json */ \"./src/model.json\"),\n    lang: __webpack_require__(/*! ./lang */ \"./src/lang/index.js\"),\n    convert: __webpack_require__(/*! ./convert.js */ \"./src/convert.js\"),\n    parse: null\n};\n\n//# sourceURL=webpack:///./src/index.js?/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/babel-loader/lib??ref--12-0");
 
 /***/ }),
 
@@ -259,7 +271,7 @@ eval("\n\nexports.__esModule = true;\n\nvar _utils = __webpack_require__(/*! ./u
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("/* WEBPACK VAR INJECTION */(function(global) {/* global window */\n\n\nexports.__esModule = true;\n\nexports['default'] = function (Handlebars) {\n  /* istanbul ignore next */\n  var root = typeof global !== 'undefined' ? global : window,\n      $Handlebars = root.Handlebars;\n  /* istanbul ignore next */\n  Handlebars.noConflict = function () {\n    if (root.Handlebars === Handlebars) {\n      root.Handlebars = $Handlebars;\n    }\n    return Handlebars;\n  };\n};\n\nmodule.exports = exports['default'];\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../webpack/buildin/global.js */ \"../../node_modules/webpack/buildin/global.js\")))\n\n//# sourceURL=webpack:////home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/handlebars/dist/cjs/handlebars/no-conflict.js?");
+eval("/* WEBPACK VAR INJECTION */(function(global) {/* global window */\n\n\nexports.__esModule = true;\n\nexports['default'] = function (Handlebars) {\n  /* istanbul ignore next */\n  var root = typeof global !== 'undefined' ? global : window,\n      $Handlebars = root.Handlebars;\n  /* istanbul ignore next */\n  Handlebars.noConflict = function () {\n    if (root.Handlebars === Handlebars) {\n      root.Handlebars = $Handlebars;\n    }\n    return Handlebars;\n  };\n};\n\nmodule.exports = exports['default'];\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../../../vkr/hpccloud-workflow/simput-kemsu/node_modules/webpack/buildin/global.js */ \"../../../../../vkr/hpccloud-workflow/simput-kemsu/node_modules/webpack/buildin/global.js\")))\n\n//# sourceURL=webpack:////home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/handlebars/dist/cjs/handlebars/no-conflict.js?");
 
 /***/ }),
 
@@ -311,18 +323,6 @@ eval("\n\n// Create a simple path alias to allow browserify to resolve\n// the r
 
 /***/ }),
 
-/***/ "../../node_modules/webpack/buildin/global.js":
-/*!***********************************!*\
-  !*** (webpack)/buildin/global.js ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n\nvar _typeof = typeof Symbol === \"function\" && typeof Symbol.iterator === \"symbol\" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === \"function\" && obj.constructor === Symbol && obj !== Symbol.prototype ? \"symbol\" : typeof obj; };\n\nvar g;\n\n// This works in non-strict mode\ng = function () {\n\treturn this;\n}();\n\ntry {\n\t// This works if eval is allowed (see CSP)\n\tg = g || Function(\"return this\")() || (1, eval)(\"this\");\n} catch (e) {\n\t// This works if the window reference is available\n\tif ((typeof window === \"undefined\" ? \"undefined\" : _typeof(window)) === \"object\") g = window;\n}\n\n// g can still be undefined, but nothing to do about it...\n// We return undefined, instead of nothing here, so it's\n// easier to handle this case. if(!global) { ...}\n\nmodule.exports = g;\n\n//# sourceURL=webpack:///(webpack)/buildin/global.js?");
-
-/***/ }),
-
 /***/ "./src/convert.js":
 /*!************************!*\
   !*** ./src/convert.js ***!
@@ -331,7 +331,7 @@ eval("\n\nvar _typeof = typeof Symbol === \"function\" && typeof Symbol.iterator
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n/*\nvar template = require('./templates/demo.hbs');\n\nmodule.exports = function (dataModel) {\n  var results = {\n      wow: 'this is a wow file. very magic',\n      bar: 'bar far mar gar har har har !',\n    },\n    error = null;\n\n  // FIXME\n\n  return { results: results, error: error };\n};*/\n\nvar template = __webpack_require__(/*! ./templates/run.hbs */ \"./src/templates/run.hbs\");\n\nmodule.exports = function convert(dataModel) {\n  var results = {};\n  var error = null;\n\n  console.log('dataModel', dataModel);\n\n  try {\n    var nu = dataModel.data.CavityFields[0].attr1['nu'].value[0];\n    var deltaT = dataModel.data.CavityFields[0].attr1['deltaT'].value[0];\n\n    results['run.sh'] = template({ nu: nu, deltaT: deltaT });\n  } catch (e) {\n    console.log('Error trying to convert model for generating run.sh', e);\n  }\n\n  return { results: results, error: error };\n};\n\n//# sourceURL=webpack:///./src/convert.js?");
+eval("\n\n/*\nvar template = require('./templates/demo.hbs');\n\nmodule.exports = function (dataModel) {\n  var results = {\n      wow: 'this is a wow file. very magic',\n      bar: 'bar far mar gar har har har !',\n    },\n    error = null;\n\n  // FIXME\n\n  return { results: results, error: error };\n};*/\n\nvar template = __webpack_require__(/*! ./templates/run.hbs */ \"./src/templates/run.hbs\");\n\nmodule.exports = function convert(dataModel) {\n  var results = {};\n  var error = null;\n\n  console.log('dataModel', dataModel);\n\n  try {\n    var nu = dataModel.data.CavityFields[0].attr1['nu'].value[0];\n    var deltaT = dataModel.data.CavityFields[0].attr1['deltaT'].value[0];\n    var endTime = dataModel.data.CavityFields[0].attr1['endTime'].value[0];\n\n    results['run.sh'] = template({ nu: nu, deltaT: deltaT, endTime: endTime });\n  } catch (e) {\n    console.log('Error trying to convert model for generating run.sh', e);\n  }\n\n  return { results: results, error: error };\n};\n\n//# sourceURL=webpack:///./src/convert.js?");
 
 /***/ }),
 
@@ -342,7 +342,7 @@ eval("\n\n/*\nvar template = require('./templates/demo.hbs');\n\nmodule.exports 
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("/* WEBPACK VAR INJECTION */(function(global) {if(!global[\"Simput\"]) global[\"Simput\"] = {};\nif(!global[\"Simput\"][\"types\"]) global[\"Simput\"][\"types\"] = {};\nmodule.exports = global[\"Simput\"][\"types\"][\"openfoam_cavity\"] = __webpack_require__(/*! -!/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/babel-loader/lib??ref--12-0!./index.js */ \"../../node_modules/babel-loader/lib/index.js??ref--12-0!./src/index.js\");\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../node_modules/webpack/buildin/global.js */ \"../../node_modules/webpack/buildin/global.js\")))\n\n//# sourceURL=webpack:///./src/index.js-exposed?");
+eval("/* WEBPACK VAR INJECTION */(function(global) {if(!global[\"Simput\"]) global[\"Simput\"] = {};\nif(!global[\"Simput\"][\"types\"]) global[\"Simput\"][\"types\"] = {};\nmodule.exports = global[\"Simput\"][\"types\"][\"openfoam_cavity_test\"] = __webpack_require__(/*! -!/home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/babel-loader/lib??ref--12-0!./index.js */ \"../../node_modules/babel-loader/lib/index.js??ref--12-0!./src/index.js\");\n/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../../../../../vkr/hpccloud-workflow/simput-kemsu/node_modules/webpack/buildin/global.js */ \"../../../../../vkr/hpccloud-workflow/simput-kemsu/node_modules/webpack/buildin/global.js\")))\n\n//# sourceURL=webpack:///./src/index.js-exposed?");
 
 /***/ }),
 
@@ -365,7 +365,7 @@ eval("\n\nmodule.exports = {\n  \"label.json\": __webpack_require__(/*! ./label.
 /*! exports provided: views, attributes, default */
 /***/ (function(module) {
 
-eval("module.exports = {\"views\":{\"SingleView\":\"Single View\"},\"attributes\":{\"attr1\":{\"title\":\"Attribute 1\",\"parameters\":{\"nu\":\"nu\",\"deltaT\":\"deltaT\"}},\"strings\":{\"title\":\"Strings\",\"parameters\":{\"a\":\"a\"}},\"integers\":{\"title\":\"Integers\",\"parameters\":{\"h\":\"h\"}},\"double\":{\"title\":\"Double\",\"parameters\":{\"nu\":\"nu\"}}}};\n\n//# sourceURL=webpack:///./src/lang/en/label.json?");
+eval("module.exports = {\"views\":{\"SingleView\":\"Single View\"},\"attributes\":{\"attr1\":{\"title\":\"Attribute 1\",\"parameters\":{\"nu\":\"nu\",\"deltaT\":\"deltaT\",\"endTime\":\"endTime\"}},\"double\":{\"title\":\"Double\",\"parameters\":{\"nu\":\"nu\",\"deltaT\":\"deltaT\",\"endTime\":\"endTime\"}}}};\n\n//# sourceURL=webpack:///./src/lang/en/label.json?");
 
 /***/ }),
 
@@ -388,7 +388,7 @@ eval("\n\nmodule.exports = {\n  \"en\": __webpack_require__(/*! ./en */ \"./src/
 /*! exports provided: order, views, definitions, default */
 /***/ (function(module) {
 
-eval("module.exports = {\"order\":[\"CavityFields\"],\"views\":{\"CavityFields\":{\"attributes\":[\"attr1\"]}},\"definitions\":{\"attr1\":{\"parameters\":[{\"id\":\"nu\",\"type\":\"double\",\"default\":0},{\"id\":\"deltaT\",\"type\":\"double\",\"size\":0,\"default\":0}]},\"strings\":{\"parameters\":[{\"id\":\"a\",\"type\":\"string\",\"size\":6,\"layout\":\"m6\",\"default\":[\"1\",\"2\",\"3\",\"4\",\"5\",\"6\"]}]},\"integers\":{\"parameters\":[{\"id\":\"h\",\"type\":\"int\",\"size\":6,\"layout\":\"3x2\",\"default\":[1,2,3,4,5,6]}]},\"double\":{\"parameters\":[{\"id\":\"h\",\"type\":\"float\",\"size\":1,\"default\":0},{\"id\":\"nu\",\"type\":\"float\",\"size\":1,\"default\":0}]}}};\n\n//# sourceURL=webpack:///./src/model.json?");
+eval("module.exports = {\"order\":[\"CavityFields\"],\"views\":{\"CavityFields\":{\"attributes\":[\"attr1\"]}},\"definitions\":{\"attr1\":{\"parameters\":[{\"id\":\"nu\",\"type\":\"double\",\"default\":0},{\"id\":\"deltaT\",\"type\":\"double\",\"size\":0,\"default\":0},{\"id\":\"endTime\",\"type\":\"double\",\"size\":0,\"default\":0}]}}};\n\n//# sourceURL=webpack:///./src/model.json?");
 
 /***/ }),
 
@@ -399,7 +399,7 @@ eval("module.exports = {\"order\":[\"CavityFields\"],\"views\":{\"CavityFields\"
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var Handlebars = __webpack_require__(/*! /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/handlebars/runtime.js */ \"../../node_modules/handlebars/runtime.js\");\nfunction __default(obj) { return obj && (obj.__esModule ? obj[\"default\"] : obj); }\nmodule.exports = (Handlebars[\"default\"] || Handlebars).template({\"compiler\":[7,\">= 4.0.0\"],\"main\":function(container,depth0,helpers,partials,data) {\n    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3=\"function\";\n\n  return \"#!/bin/bash\\n\\ncd $1\\n\\nmodule load openfoam_switcher\\n. switchFoam 6\\n\\n# Tutorial example\\ncp -r $FOAM_TUTORIALS/incompressible/icoFoam/cavity/cavity .\\n\\ncd cavity\\n\\nsed -i 's/0.01/\"\n    + ((stack1 = ((helper = (helper = helpers.nu || (depth0 != null ? depth0.nu : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{\"name\":\"nu\",\"hash\":{},\"data\":data}) : helper))) != null ? stack1 : \"\")\n    + \"/' constant/transportProperties\\nsed -i 's/0.005/\"\n    + ((stack1 = ((helper = (helper = helpers.deltaT || (depth0 != null ? depth0.deltaT : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{\"name\":\"deltaT\",\"hash\":{},\"data\":data}) : helper))) != null ? stack1 : \"\")\n    + \"/' system/controlDict\\n\\nblockMesh\\n\\nfoamJob -wait icoFoam\\nfoamToVTK\\n\\n# Make dataset readable by PV\\ntouch dataset.foam\\n\\n# Unzip any obj file so they can be used as context\\nfind . -name *.obj.gz -exec gzip -dk {} \\\\;\\n\\n# Gather context shapes in ../context\\nmkdir -p ../context\\ncd ../context\\nfind ../cavity -name *.obj -exec ln -s {} ../context/ \\\\;\";\n},\"useData\":true});\n\n//# sourceURL=webpack:///./src/templates/run.hbs?");
+eval("var Handlebars = __webpack_require__(/*! /home/dealenx/dev/vkr-dev/hpccloud-workflow__/simput-kemsu/node_modules/handlebars/runtime.js */ \"../../node_modules/handlebars/runtime.js\");\nfunction __default(obj) { return obj && (obj.__esModule ? obj[\"default\"] : obj); }\nmodule.exports = (Handlebars[\"default\"] || Handlebars).template({\"compiler\":[7,\">= 4.0.0\"],\"main\":function(container,depth0,helpers,partials,data) {\n    var stack1, helper, alias1=depth0 != null ? depth0 : (container.nullContext || {}), alias2=helpers.helperMissing, alias3=\"function\";\n\n  return \"#!/bin/bash\\n\\ncd $1\\n\\nmodule load openfoam_switcher\\n. switchFoam 6\\n\\n# Tutorial example\\ncp -r $FOAM_TUTORIALS/incompressible/icoFoam/cavity/cavity .\\n\\ncd cavity\\n\\nsed -i 's/0.01/\"\n    + ((stack1 = ((helper = (helper = helpers.nu || (depth0 != null ? depth0.nu : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{\"name\":\"nu\",\"hash\":{},\"data\":data}) : helper))) != null ? stack1 : \"\")\n    + \"/' constant/transportProperties\\nsed -i 's/0.005/\"\n    + ((stack1 = ((helper = (helper = helpers.deltaT || (depth0 != null ? depth0.deltaT : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{\"name\":\"deltaT\",\"hash\":{},\"data\":data}) : helper))) != null ? stack1 : \"\")\n    + \"/' system/controlDict\\nsed -i 's/0.5/\"\n    + ((stack1 = ((helper = (helper = helpers.endTime || (depth0 != null ? depth0.endTime : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{\"name\":\"endTime\",\"hash\":{},\"data\":data}) : helper))) != null ? stack1 : \"\")\n    + \"/' system/controlDict\\n\\nblockMesh\\n\\nfoamJob -wait icoFoam\\nfoamToVTK\\n\\n# Make dataset readable by PV\\ntouch dataset.foam\\n\\n# Unzip any obj file so they can be used as context\\nfind . -name *.obj.gz -exec gzip -dk {} \\\\;\\n\\n# Gather context shapes in ../context\\nmkdir -p ../context\\ncd ../context\\nfind ../cavity -name *.obj -exec ln -s {} ../context/ \\\\;\";\n},\"useData\":true});\n\n//# sourceURL=webpack:///./src/templates/run.hbs?");
 
 /***/ })
 
