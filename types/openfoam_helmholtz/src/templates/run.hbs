@@ -18,7 +18,7 @@ module load openfoam_switcher
 
 
 # Preparing salome mesh
-echo '{"field_length": 15 }' > case_vars.json
+echo '{"field_length": {{{fieldLength}}} }' > case_vars.json
 $SALOME_PATH/salome -t python ./generate_mesh.py
 ideasUnvToFoam ./mesh.unv
 sed -i 's/patch/wall/' constant/polyMesh/boundary

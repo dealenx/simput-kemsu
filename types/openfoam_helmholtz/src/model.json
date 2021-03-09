@@ -25,6 +25,12 @@
           "type": "double",
           "size": 1,
           "default": [1]
+        },
+        {
+          "id": "fieldLength",
+          "type": "double",
+          "size": 1,
+          "default": [1]
         }
       ]
     }

@@ -25,8 +25,10 @@ module.exports = function convert(dataModel) {
     const nu = dataModel.data.CavityFields[0].attr1['nu'].value[0];
     const deltaT = dataModel.data.CavityFields[0].attr1['deltaT'].value[0];
     const endTime = dataModel.data.CavityFields[0].attr1['endTime'].value[0];
+    const fieldLength =
+      dataModel.data.CavityFields[0].attr1['fieldLength'].value[0];
 
-    results['run.sh'] = template({ nu, deltaT, endTime });
+    results['run.sh'] = template({ nu, deltaT, endTime, fieldLength });
   } catch (e) {
     console.log('Error trying to convert model for generating run.sh', e);
   }
