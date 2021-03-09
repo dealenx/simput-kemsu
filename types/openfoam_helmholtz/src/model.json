@@ -1,0 +1,32 @@
+{
+  "order": ["CavityFields"],
+  "views": {
+    "CavityFields": {
+      "attributes": ["attr1"]
+    }
+  },
+  "definitions": {
+    "attr1": {
+      "parameters": [
+        {
+          "id": "nu",
+          "type": "double",
+          "default": 0
+        },
+        {
+          "id": "deltaT",
+          "type": "double",
+          "size": 0,
+
+          "default": 0
+        },
+        {
+          "id": "endTime",
+          "type": "double",
+          "size": 0,
+          "default": 0
+        }
+      ]
+    }
+  }
+}

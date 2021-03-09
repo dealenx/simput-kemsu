@@ -1,0 +1,46 @@
+#!/bin/bash
+
+cd $1
+
+
+# Paths
+CASE_PATH="/home/gorodilov/cases/helmholtz-flow/prepared_case"
+SALOME_PATH="/home/gorodilov/SALOME-9.3.0-CO6-SRC"
+
+
+# Variables
+cp -r $CASE_PATH current_case
+cd current_case
+
+module load openfoam_switcher
+. switchFoam 6
+
+
+
+# Preparing salome mesh
+echo '{"field_length": 15 }' > case_vars.json
+$SALOME_PATH/salome -t python ./generate_mesh.py
+ideasUnvToFoam ./mesh.unv
+sed -i 's/patch/wall/' constant/polyMesh/boundary
+
+sed -i 's/0.001/{{{nu}}}/' constant/transportProperties
+sed -i 's/0.005/{{{deltaT}}}/' system/controlDict
+sed -i 's/10./{{{endTime}}}/' system/controlDict
+
+
+# OpenFoam calcing with icoFoam solver
+foamJob -wait icoFoam
+
+
+foamToVTK
+
+# Make dataset readable by PV
+touch dataset.foam
+
+# Unzip any obj file so they can be used as context
+find . -name *.obj.gz -exec gzip -dk {} \;
+
+# Gather context shapes in ../context
+mkdir -p ../context
+cd ../context
+find ../cavity -name *.obj -exec ln -s {} ../context/ \;

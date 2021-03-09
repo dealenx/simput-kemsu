@@ -1,0 +1,25 @@
+{
+  "views": {
+    "SingleView": "Single View"
+  },
+  "attributes": {
+    "attr1": {
+      "title": "Attribute 1",
+      "parameters": {
+        "nu": "nu",
+        "deltaT": "deltaT",
+        "endTime": "endTime",
+        "fieldLength": "fieldLength"
+      }
+    },
+    "double": {
+      "title": "Double",
+      "parameters": {
+        "nu": "nu",
+        "deltaT": "deltaT",
+        "endTime": "endTime",
+        "fieldLength": "fieldLength"
+      }
+    }
+  }
+}
