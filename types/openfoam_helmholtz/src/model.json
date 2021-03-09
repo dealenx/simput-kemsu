@@ -11,20 +11,20 @@
         {
           "id": "nu",
           "type": "double",
-          "default": 0
+          "size": 1,
+          "default": [1]
         },
         {
           "id": "deltaT",
           "type": "double",
-          "size": 0,
-
-          "default": 0
+          "size": 1,
+          "default": [1]
         },
         {
           "id": "endTime",
           "type": "double",
-          "size": 0,
-          "default": 0
+          "size": 1,
+          "default": [1]
         }
       ]
     }

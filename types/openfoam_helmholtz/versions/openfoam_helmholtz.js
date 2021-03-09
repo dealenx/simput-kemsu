@@ -388,7 +388,7 @@ eval("\n\nmodule.exports = {\n  \"en\": __webpack_require__(/*! ./en */ \"./src/
 /*! exports provided: order, views, definitions, default */
 /***/ (function(module) {
 
-eval("module.exports = {\"order\":[\"CavityFields\"],\"views\":{\"CavityFields\":{\"attributes\":[\"attr1\"]}},\"definitions\":{\"attr1\":{\"parameters\":[{\"id\":\"nu\",\"type\":\"double\",\"default\":0},{\"id\":\"deltaT\",\"type\":\"double\",\"size\":0,\"default\":0},{\"id\":\"endTime\",\"type\":\"double\",\"size\":0,\"default\":0}]}}};\n\n//# sourceURL=webpack:///./src/model.json?");
+eval("module.exports = {\"order\":[\"CavityFields\"],\"views\":{\"CavityFields\":{\"attributes\":[\"attr1\"]}},\"definitions\":{\"attr1\":{\"parameters\":[{\"id\":\"nu\",\"type\":\"double\",\"size\":1,\"default\":[1]},{\"id\":\"deltaT\",\"type\":\"double\",\"size\":1,\"default\":[1]},{\"id\":\"endTime\",\"type\":\"double\",\"size\":1,\"default\":[1]}]}}};\n\n//# sourceURL=webpack:///./src/model.json?");
 
 /***/ }),
 

@@ -20,3 +20,9 @@ Add the compiled package to Simput:
 ```sh
 $ Simput -a versions/openfoam_helmholtz.js
 ```
+
+then to build in Simput 
+```
+cd ../..
+Simput -mc types/openfoam_helmholtz/src/ -t openfoam_helmholtz -o dist/types
+```
